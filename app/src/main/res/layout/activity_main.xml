@@ -28,6 +28,8 @@
             android:layout_marginHorizontal="10dp"
             android:layout_marginVertical="10dp"
             android:padding="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
             android:text="My Orders" />
     </LinearLayout>
     <TextView
@@ -50,7 +52,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:paddingHorizontal="10dp"
-            android:paddingVertical="60dp"/>
+            android:paddingVertical="60dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF" />
         <Button
             android:id="@+id/btn_foods"
             android:text="Foods"
@@ -58,7 +63,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:paddingHorizontal="10dp"
-            android:paddingVertical="60dp"/>
+            android:paddingVertical="60dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"/>
         <Button
             android:id="@+id/btn_snacks"
             android:text="Snacks"
@@ -66,7 +74,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:paddingHorizontal="10dp"
-            android:paddingVertical="60dp"/>
+            android:paddingVertical="60dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"/>
         <Button
             android:id="@+id/btn_top_up"
             android:text="Top Up"
@@ -74,7 +85,10 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:paddingHorizontal="10dp"
-            android:paddingVertical="60dp"/>
+            android:paddingVertical="60dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"/>
 
     </GridLayout>
 

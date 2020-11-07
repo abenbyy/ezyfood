@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SnacksActivity"></activity>
+        <activity android:name=".TopUpActivity"></activity>
+        <activity android:name=".SnacksActivity" />
         <activity android:name=".FoodsActivity" />
         <activity android:name=".PaymentActivity" />
         <activity android:name=".OrderActivity" />

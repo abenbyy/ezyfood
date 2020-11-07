@@ -26,8 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
         // Set wallet
         tvWallet = findViewById(R.id.tv_wallet);
-        wallet = Wallet.getInstance();
-        tvWallet.setText("Rp. " + wallet.amount);
 
         btnOrder = findViewById(R.id.btn_order);
         setIntent(btnOrder, OrderActivity.class);
@@ -38,8 +36,15 @@ public class MainActivity extends AppCompatActivity {
         btnSnacks = findViewById(R.id.btn_snacks);
         setIntent(btnSnacks, SnacksActivity.class);
         btnTopUp = findViewById(R.id.btn_top_up);
-        //setIntent(btnTopUp, T);
+        setIntent(btnTopUp, TopUpActivity.class);
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        wallet = Wallet.getInstance();
+        tvWallet.setText("Rp. " + wallet.amount);
     }
 
     public void setIntent(Button btn, Class<?> cls){
