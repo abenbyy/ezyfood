@@ -30,11 +30,15 @@ public class MainActivity extends AppCompatActivity {
         tvWallet.setText("Rp. " + wallet.amount);
 
         btnOrder = findViewById(R.id.btn_order);
+        setIntent(btnOrder, OrderActivity.class);
         btnDrinks = findViewById(R.id.btn_drinks);
         setIntent(btnDrinks, DrinksActivity.class);
         btnFoods = findViewById(R.id.btn_foods);
+        //setIntent(btnFoods, F);
         btnSnacks = findViewById(R.id.btn_snacks);
+        //setIntent(btnSnacks, S);
         btnTopUp = findViewById(R.id.btn_top_up);
+        //setIntent(btnTopUp, T);
 
     }
 

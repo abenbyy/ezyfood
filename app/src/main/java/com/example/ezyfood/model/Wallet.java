@@ -15,7 +15,7 @@ public class Wallet {
     }
 
     private Wallet(){
-        this.amount = 0;
+        this.amount = 100000;
     }
 
 }
