@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
         btnDrinks = findViewById(R.id.btn_drinks);
         setIntent(btnDrinks, DrinksActivity.class);
         btnFoods = findViewById(R.id.btn_foods);
-        //setIntent(btnFoods, F);
+        setIntent(btnFoods, FoodsActivity.class);
         btnSnacks = findViewById(R.id.btn_snacks);
-        //setIntent(btnSnacks, S);
+        setIntent(btnSnacks, SnacksActivity.class);
         btnTopUp = findViewById(R.id.btn_top_up);
         //setIntent(btnTopUp, T);
 
